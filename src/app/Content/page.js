@@ -115,7 +115,7 @@ const Content = () => {
   <div className="row">
     <div className="col border p-5">
     {gifs.slice(offset, offset + limit).map((gif) => (
-              <Image
+              <img
                 key={gif.id}
                 src={gif.url}
                 alt={gif.title}
